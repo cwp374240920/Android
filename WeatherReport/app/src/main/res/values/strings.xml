@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">天气预报</string>
+
+    <string name="hint_of_location">请输入地名</string>
+    <string name="search_of_button">搜索</string>
+    <string name="friendlyHint">你瞎啊！</string>
+    <string name="action_settings">Settings</string>
+</resources>
