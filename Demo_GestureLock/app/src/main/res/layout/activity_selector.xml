@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cwp.demo_gesturelock.Selector">
+
+    <Button
+        android:id="@+id/setter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置密码"
+        android:layout_marginTop="83dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/unlock"
+        android:layout_alignStart="@+id/unlock" />
+    <Button
+        android:id="@+id/unlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="解锁"
+        android:layout_below="@+id/setter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp" />
+</RelativeLayout>
