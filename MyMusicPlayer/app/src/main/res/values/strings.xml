@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyMusicPlayer</string>
+
+    <string name="todo">待实现</string>
+</resources>
